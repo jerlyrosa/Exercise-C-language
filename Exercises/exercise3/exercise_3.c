@@ -2,11 +2,9 @@
 // cantidad de globos azules 5, globos rojos 4, globos negros 2 amarillo 1
 // Para tales fines debe usar la formula
 
-
 //                          tamaño del espacio del evento
 // probabilidad =    ------------------------------
 //                           tamaño del espacio muestral
-
 
 //                        5
 // probabilidad_azules = ___ * 100
@@ -20,36 +18,32 @@
 
 // Probabilidad de que salga un globo negro o amarillo.
 
-
-
 #include <stdio.h>
 
-
-float calcular(int a, float b){
-    return (a / b)*100;
+float calcular(int a, float b)
+{
+    return (a / b) * 100;
 }
 
-int main() {
-    
-   float  espacio, result;
-   int globosAzules = 5;
-   int globosRojos = 4;
-   int globosNegros = 2;
-   int globosAmarillo = 1;
+int main()
+{
 
-     printf("Introduzca el valor del espacio: ");
-     scanf("%f",&espacio);
+    float espacio, result;
+    int globosAzules = 5;
+    int globosRojos = 4;
+    int globosNegros = 2;
+    int globosAmarillo = 1;
 
-    printf("La probabilidad que salga azul es: %.2f%% \n", calcular(globosAzules,espacio));
+    printf("Introduzca el valor del espacio: ");
+    scanf("%f", &espacio);
 
-    printf("La probabilidad que salga rojo es: %.2f%% \n", calcular(globosRojos,espacio));
+    printf("La probabilidad que salga azul es: %.2f%% \n", calcular(globosAzules, espacio));
 
-    printf("La probabilidad que salga negro es: %.2f%% \n", calcular(globosNegros,espacio));
+    printf("La probabilidad que salga rojo es: %.2f%% \n", calcular(globosRojos, espacio));
 
-    printf("La probabilidad que salga amarrillo es: %.2f%%  \n", calcular(globosAmarillo,espacio));
+    printf("La probabilidad que salga negro es: %.2f%% \n", calcular(globosNegros, espacio));
 
+    printf("La probabilidad que salga amarrillo es: %.2f%%  \n", calcular(globosAmarillo, espacio));
 
-   return 0;
+    return 0;
 }
-
-
