@@ -20,22 +20,20 @@
 
 #include <stdio.h>
 
-float ProbabilidadGlobos(int a, float b)
-{
+float ProbabilidadGlobos(int a, float b){
     return (a / b) * 100;
 }
 
 int main()
 {
 
-    float espacio;
     int globosAzules = 5;
     int globosRojos = 4;
     int globosNegros = 2;
     int globosAmarillo = 1;
 
-    printf("Introduzca el valor del espacio: ");
-    scanf("%f", &espacio);
+    float espacio = globosAzules + globosRojos + globosNegros + globosAmarillo ;
+
 
     printf("La probabilidad que salga azul es: %.2f%% \n", ProbabilidadGlobos(globosAzules, espacio));
 
