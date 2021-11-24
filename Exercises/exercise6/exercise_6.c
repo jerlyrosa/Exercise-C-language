@@ -10,6 +10,7 @@ int main()
     int edades;
     int mayores = 0;
     int menores = 0;
+
     for (count; count < personas; count++)
     {
         printf("Introduzca la edad de una persona:");
