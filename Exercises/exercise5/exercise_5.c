@@ -4,7 +4,6 @@
 #include <stdio.h>
 
 
-
 int main()
 {
   int valor_tabla, valor_usuario, contador=0;
