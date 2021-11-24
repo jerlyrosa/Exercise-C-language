@@ -3,14 +3,12 @@
 
 #include <stdio.h>
 
-
-
 int main()
 {
   int x=0;
   for (x=0; x<=17; x++){
     if (x % 2 != 0 && x != 15){
-           printf ("\n %d", x);
+           printf (" %d \n", x);
     }
   }
     return 0;

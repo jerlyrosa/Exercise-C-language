@@ -13,7 +13,7 @@ int main()
     do
     {
       valor_tabla = valor_usuario * contador;
-      printf("\n %d x %d = %d",valor_usuario,contador, valor_tabla);
+      printf(" %d x %d = %d \n",valor_usuario,contador, valor_tabla);
       contador++;
     } while (contador <= 12);
     

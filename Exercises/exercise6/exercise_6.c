@@ -26,7 +26,7 @@ int main()
         }
     }
 
-    printf("Se de termino que hay un total %d personas mayores y %d personas menores", mayores, menores);
+    printf("Se de termino que hay un total %d personas mayores y %d personas menores \n", mayores, menores);
 
     return 0;
 }
