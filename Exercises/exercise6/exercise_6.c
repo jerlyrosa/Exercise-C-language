@@ -5,7 +5,7 @@
 
 int main()
 {
-    int personas = 5;
+    int personas = 10;
     int count = 0;
     int edades;
     int mayores = 0;

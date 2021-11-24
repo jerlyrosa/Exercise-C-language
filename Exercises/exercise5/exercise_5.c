@@ -7,7 +7,7 @@
 int main()
 {
   int valor_tabla, valor_usuario, contador=1;
-    printf("Introduzca el valor de la tabla que desea imprimir valor: ");
+    printf("Introduzca el valor de la tabla que desea imprimir: ");
     scanf("%d",&valor_usuario);
 
     do
